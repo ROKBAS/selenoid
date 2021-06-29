@@ -10,6 +10,7 @@
                 "enableVideo": true,
                 "enableLog": true,
                 "shmSize": 1073741824,
+                "screenResolution": "1280x720x12",
                 "cpu": "1.0",
                 "mem": "512m",
                 "tmpfs": {
@@ -29,6 +30,7 @@
                 "enableVideo": true,
                 "enableLog": true,
                 "shmSize": 1073741824,
+                "screenResolution": "1280x720x12",
                 "cpu": "1.0",
                 "mem": "512m",
                 "tmpfs": {
