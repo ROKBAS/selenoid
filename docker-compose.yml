@@ -9,12 +9,12 @@ services:
       - "./logs:/opt/selenoid/logs"
     command: ["-conf", "/etc/selenoid/browsers.json", "-video-output-dir", "/opt/selenoid/video", "-log-output-dir", "/opt/selenoid/logs"]
     ports:
-      - "4444:4440"
+      - "4440:4444"
 
   selenoid-ui:
     image: aerokube/selenoid-ui
     links:
       - selenoid
     ports:
-      - "8082:8082"
+      - "8082:8080"
     command: ["--selenoid-uri", "http://selenoid:4440"]
