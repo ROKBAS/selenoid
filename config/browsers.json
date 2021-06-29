@@ -13,9 +13,9 @@
                 "sessionTimeout": "1h",
                 "screenResolution": "1280x720x12",
                 "cpu": "1.0",
-                "mem": "512m",
+                "mem": "1536m",
                 "tmpfs": {
-                    "/tmp": "size=512m"
+                    "/tmp": "size=1536m"
                 }
             }
         }
@@ -34,9 +34,9 @@
                 "sessionTimeout": "1h",
                 "screenResolution": "1280x720x12",
                 "cpu": "1.0",
-                "mem": "512m",
+                "mem": "1536m",
                 "tmpfs": {
-                    "/tmp": "size=512m"
+                    "/tmp": "size=1536m"
                 }
             }
         }
