@@ -8,6 +8,7 @@
                 "path": "/",
                 "enableVNC": true,
                 "enableVideo": true,
+                "enableLog": true,
                 "tmpfs": {
                     "/tmp": "size=512m"
                 }
@@ -23,6 +24,7 @@
                 "path": "/wd/hub",
                 "enableVNC": true,
                 "enableVideo": true,
+                "enableLog": true,
                 "tmpfs": {
                     "/tmp": "size=512m"
                 }
