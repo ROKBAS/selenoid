@@ -1,39 +1,27 @@
 {
-    "android": {
-        "default": "8.1",
-        "versions": {
-            "6.0": {
-                "image": "registry.aerokube.com/selenoid/android:6.0",
-                "port": "4444"
-            },
-            "8.1": {
-                "image": "registry.aerokube.com/selenoid/android:8.1",
-                "port": "4444"
-            }
-        }
-    },
     "chrome": {
-        "default": "66.0",
+        "default": "91.0",
         "versions": {
-            "66.0": {
-                "image": "selenoid/chrome:66.0",
+            "91.0": {
+                "image": "selenoid/vnc_chrome:91.0",
                 "port": "4444",
-                "path": "/",
+                "enableVNC": true,
                 "tmpfs": {
-                    "/tmp": "size=128m"
+                    "/tmp": "size=512m"
                 }
             }
         }
     },
     "firefox": {
-        "default": "63.0",
+        "default": "89.0",
         "versions": {
-            "63.0": {
-                "image": "selenoid/firefox:63.0",
+            "89.0": {
+                "image": "selenoid/vnc_firefox:89.0",
                 "port": "4444",
                 "path": "/wd/hub",
+                "enableVNC": true,
                 "tmpfs": {
-                    "/tmp": "size=128m"
+                    "/tmp": "size=512m"
                 }
             }
         }
