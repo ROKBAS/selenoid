@@ -11,11 +11,11 @@
                 "enableLog": true,
                 "shmSize": 1073741824,
                 "sessionTimeout": "1h",
-                "screenResolution": "1280x720x24",
+                "screenResolution": "1280x720x12",
                 "cpu": "1.0",
-                "mem": "1536m",
+                "mem": "1024m",
                 "tmpfs": {
-                    "/tmp": "size=1536m"
+                    "/tmp": "size=1024m"
                 }
             }
         }
@@ -32,11 +32,11 @@
                 "enableLog": true,
                 "shmSize": 1073741824,
                 "sessionTimeout": "1h",
-                "screenResolution": "1280x720x24",
+                "screenResolution": "1280x720x12",
                 "cpu": "1.0",
-                "mem": "1536m",
+                "mem": "1024m",
                 "tmpfs": {
-                    "/tmp": "size=1536m"
+                    "/tmp": "size=1024m"
                 }
             }
         }
