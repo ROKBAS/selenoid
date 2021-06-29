@@ -5,6 +5,7 @@
             "91.0": {
                 "image": "selenoid/vnc_chrome:91.0",
                 "port": "4444",
+                "path": "/",
                 "enableVNC": true,
                 "enableVideo": true,
                 "tmpfs": {
