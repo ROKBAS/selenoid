@@ -11,7 +11,7 @@
                 "enableLog": true,
                 "shmSize": 1073741824,
                 "sessionTimeout": "1h",
-                "screenResolution": "1280x720x12",
+                "screenResolution": "1280x720x24",
                 "cpu": "1.0",
                 "mem": "1536m",
                 "tmpfs": {
@@ -32,7 +32,7 @@
                 "enableLog": true,
                 "shmSize": 1073741824,
                 "sessionTimeout": "1h",
-                "screenResolution": "1280x720x12",
+                "screenResolution": "1280x720x24",
                 "cpu": "1.0",
                 "mem": "1536m",
                 "tmpfs": {
