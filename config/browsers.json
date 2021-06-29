@@ -9,6 +9,9 @@
                 "enableVNC": true,
                 "enableVideo": true,
                 "enableLog": true,
+                "shmSize": 1073741824,
+                "cpu": "1.0",
+                "mem": "512m",
                 "tmpfs": {
                     "/tmp": "size=512m"
                 }
@@ -25,6 +28,9 @@
                 "enableVNC": true,
                 "enableVideo": true,
                 "enableLog": true,
+                "shmSize": 1073741824,
+                "cpu": "1.0",
+                "mem": "512m",
                 "tmpfs": {
                     "/tmp": "size=512m"
                 }
