@@ -17,4 +17,4 @@ services:
       - selenoid
     ports:
       - "8082:8080"
-    command: ["--selenoid-uri", "http://selenoid:4440"]
+    command: ["--selenoid-uri", "http://83.166.240.63:4440"]
